@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
+  <a href="https://hsthanb4.github.io/"><img alt="课程导航" src="https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E5%AF%BC%E8%88%AA-%F0%9F%8F%A0-111827?style=flat-square"></a>
   <a href="https://hsthanb4.github.io/hpclearning/"><img alt="HPC/AI Infra" src="https://img.shields.io/badge/HPC·AI_Infra-面试课程-2563eb?style=flat-square"></a>
   <a href="https://hsthanb4.github.io/ai-infra-answers/"><img alt="AI Infra 手册" src="https://img.shields.io/badge/AI_Infra-问题手册-0891b2?style=flat-square"></a>
-  <a href="https://hsthanb4.github.io/"><img alt="Blog" src="https://img.shields.io/badge/Blog-Archer's%20blog-64748b?style=flat-square"></a>
 </p>
 
 ---
@@ -16,13 +16,13 @@
 
 | | 课程 | 简介 |
 |---|---|---|
+| 🏠 | **[课程导航首页](https://hsthanb4.github.io/)** | 所有课程站点的统一入口 |
 | 🖥️ | **[HPC / AI Infra 面试课程](https://hsthanb4.github.io/hpclearning/)** | 显存估算、训练排障、推理优化与算子面试的系统化课程 |
 | 📖 | **[AI Infra 问题手册](https://hsthanb4.github.io/ai-infra-answers/)** | 中文 AI Infra 问答手册：常见问题与可复现的验证步骤 |
 | 📈 | **[InvestLearning](https://hsthanb4.github.io/investlearning/)** | 投资与量化金融体系课程 |
 | 🍳 | **[TheFoodLabLearning](https://hsthanb4.github.io/foodlab-course/)** | 《料理实验室》现代烹饪科学与微观物理研习平台 |
 | 🧭 | **[向上管理课程](https://hsthanb4.github.io/upward-management-course/)** | 互联网大厂向上管理：12 周能力进阶实战手册 |
 | 🤖 | **[机器人自主性原理 · 中文精译](https://hsthanb4.github.io/pora-zh/)** | Principles of Robot Autonomy 中文精译课程 |
-| ✍️ | **[Archer's blog](https://hsthanb4.github.io/)** | 个人博客 |
 
 ## 🔧 技术与关注方向
 
@@ -43,9 +43,9 @@
 | --- | --- | --- |
 | 2026-11-11 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | [#48316](https://github.com/sgl-project/sglang/pull/48316) [Fix] offload: Keep DSA indexer parameters resident on GPU under CPU offload |
 | 2026-11-04 | [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | [#8473](https://github.com/NVIDIA/Megatron-LM/pull/8473) Make TrainState available in CallbackContext (#8438) |
-| 2026-11-02 | [Xiaofei-fei/dsh-prompt-history](https://github.com/Xiaofei-fei/dsh-prompt-history/pull/19) feat: model continuation for the composer, and a context the model can actually use |
+| 2026-11-02 | [Xiaofei-fei/dsh-prompt-history](https://github.com/Xiaofei-fei/dsh-prompt-history) | [#19](https://github.com/Xiaofei-fei/dsh-prompt-history/pull/19) feat: model continuation for the composer, and a context the model can actually use |
 | 2026-11-01 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | [#499](https://github.com/xmanrui/dsh-im/pull/499) fix(ds-bot): follow handed-off prompts without duplicate submission (#498) |
 | 2026-10-31 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | [#10572](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10572) plugins: add hsthanb4/dsh-magpie-usage |
 <!-- MERGED-PRS:END -->
 
-<p align="center"><i>PR 借膪嬐GitHub Action 每日自动更新 · 仅收录公开仓库</i></p>
+<p align="center"><i>PR 列表由 GitHub Action 每日自动更新 · 仅收录公开仓库</i></p>
