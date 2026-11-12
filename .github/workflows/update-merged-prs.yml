@@ -1,0 +1,36 @@
+name: Update merged external PRs
+
+on:
+  schedule:
+    - cron: "30 1 * * *" # UTC 01:30 = 北京时间 09:30，每天更新
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-merged-prs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild merged PR section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_merged_prs.py
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update merged external PR list"
+            git push
+          else
+            echo "No changes"
+          fi
