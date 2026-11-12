@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://hsthanb4.github.io/"><img alt="课程导航" src="https://img.shields.io/badge/%E8%AF%BE%E7%A8%8B%E5%AF%BC%E8%88%AA-%F0%9F%8F%A0-111827?style=flat-square"></a>
+  <a href="https://hsthanb4.github.io/"><img alt="个人主页" src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5-%F0%9F%8F%A0-111827?style=flat-square"></a>
   <a href="https://hsthanb4.github.io/hpclearning/"><img alt="HPC/AI Infra" src="https://img.shields.io/badge/HPC·AI_Infra-面试课程-2563eb?style=flat-square"></a>
   <a href="https://hsthanb4.github.io/ai-infra-answers/"><img alt="AI Infra 手册" src="https://img.shields.io/badge/AI_Infra-问题手册-0891b2?style=flat-square"></a>
 </p>
@@ -16,7 +16,7 @@
 
 | | 课程 | 简介 |
 |---|---|---|
-| 🏠 | **[课程导航首页](https://hsthanb4.github.io/)** | 所有课程站点的统一入口 |
+| 🏠 | **[个人主页](https://hsthanb4.github.io/)** | 研究领域、项目经历（AnyTrain / AnyRL）与全部站点入口 |
 | 🖥️ | **[HPC / AI Infra 面试课程](https://hsthanb4.github.io/hpclearning/)** | 显存估算、训练排障、推理优化与算子面试的系统化课程 |
 | 📖 | **[AI Infra 问题手册](https://hsthanb4.github.io/ai-infra-answers/)** | 中文 AI Infra 问答手册：常见问题与可复现的验证步骤 |
 | 📈 | **[InvestLearning](https://hsthanb4.github.io/investlearning/)** | 投资与量化金融体系课程 |
